@@ -11,6 +11,7 @@ import Development from "./components/pages/Development/Development.jsx"
 import WhatsApp from "./components/pages/WhatsappIcon/Whatsapp.jsx" 
 import ContactUs from "./components/pages/Contact/ContactUs.jsx"
 import Services from "./components/pages/Services/Services.jsx"
+import Ai from "./components/pages/Ai/Ai.jsx"
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
       <Route path='services/web-development' element={<Development/>}/>
       <Route path='contact' element={<ContactUs/>}/>
       <Route path='services' element={<Services/>}/>
+      <Route path='/ai' element ={<Ai/>}/>
 
     </Routes>
     <Footer/>

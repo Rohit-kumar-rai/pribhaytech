@@ -48,6 +48,9 @@ const Header = () => {
             <Link to="/about" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
               About
             </Link>
+            <Link to="/ai" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
+              AI
+            </Link>
             
             {/* Services Dropdown */}
             <div className="relative group">
